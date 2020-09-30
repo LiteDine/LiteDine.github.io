@@ -7,3 +7,5 @@ Raymond Moreau - 300199575
 Diego Bajetti - 300175801
 
 Project Name: LiteDine
+
+Description: 
