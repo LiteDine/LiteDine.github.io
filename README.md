@@ -8,4 +8,4 @@ Diego Bajetti - 300175801
 
 Project Name: LiteDine
 
-Description: 
+Description: A phone app that is targeted to people that want to, or are currently on a diet. Will display several restaurants with inputted diet or calorie parameters.
