@@ -1,0 +1,26 @@
+Aesthetic for Lite Dine website!
+
+Colour scheme:
+
+Two main colours for scheme:
+	
+	light yellow, fluffy light colour, pastel fitting yellow. - #FFB947
+
+	lighter pastel red which matches well with the yellow - #FF5D47
+
+	pure black for text in contrast with the yellow, - #000000
+
+	pure white or maybe a greyish tone for text to contrast with the red = #FFFFFF
+
+Top bar colour: 
+
+	dark red, sets tone well. contrasts with other colours. - #800509
+
+Fonts:
+
+	Cream Peach - for headers and such on the website. Looks aesthetically pleasing
+			and calls attention to itself compared to other fonts.
+
+	Typo Grotesk - for body, thinner than cream peach so it will not take attention
+			away from it, long letters means the reader feels like they're
+			reading more than they are which gives it a satisfying idea.
