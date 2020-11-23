@@ -1,0 +1,134 @@
+p{
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: justify;
+    font-size: 25px;
+    color: black;
+}
+
+h1{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 70px;
+    color: black;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+ul{
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: justify;
+    font-size: 25px;
+    color: black;
+}
+
+body{
+    background-image: url("../assets/home_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: scroll;
+}
+
+.buttons{
+    width: 95%;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 1rem 3rem;
+    font-size: 1.6rem;
+    font-style: normal;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+
+    position: absolute;
+    left:20px;
+    bottom:20px;
+}
+
+#page{
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    grid-auto-columns: 1000px;
+    grid-auto-rows: 500px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    width: 2050px;
+    margin: auto;
+}
+
+
+
+#product{
+    background-color: rgba(255, 185, 71, .9);
+    backdrop-filter: blur(4px);
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    position:relative;
+}
+
+#welcome{
+    background-color: rgba(255, 93, 71, .9);
+    backdrop-filter: blur(4px);
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    position:relative;
+}
+
+#slogan{
+    text-align: center;
+    font-size: 50px;
+}
+
+#team{
+    background-color: rgba(255, 185, 71, .9);
+    backdrop-filter: blur(4px);
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    position:relative;
+}
+
+#contact{
+    background-color: rgba(255, 185, 71, .9);
+    backdrop-filter: blur(4px);
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    position:relative;
+}
