@@ -1,0 +1,135 @@
+  body
+{
+    padding: 0px;
+    margin: 0px;
+background: silver;
+
+}
+  
+  
+  
+  .hamburger-menu {
+    width: 60px;
+    height: 60px;
+    background-color:white;
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 300;
+    transition: all 0.5s;
+  }
+  
+  .change .hamburger-menu {
+    background-color: white;
+    position: absolute;
+  }
+  
+  .line {
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    margin: 2px 0;
+    transform-origin: right;
+    transition: all 0.5s;
+    
+  }
+  
+  .change .line-1 {
+    transform: rotate(-40deg) translateY(-5px);
+    background-color: black;
+  }
+  
+  .change .line-2 {
+    opacity: 0;
+  }
+  
+  .change .line-3 {
+    transform: rotate(40deg) translateY(5px);
+    background-color: black;
+  }
+  
+  .bg-cover {
+    background-color: rgba(146, 97, 33, 0.9);
+    
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    z-index: 200;
+    display: block;
+    transition: transform 0.5s;
+    
+  }
+  
+  .change .bg-cover {
+    width: 250px;
+    height: 100%;
+    top: 0px;
+    left:0px;
+    
+    display: block
+  }
+  
+  .nav-list {
+    height: 100vh;
+    width: 100vw;
+    top: 100px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    list-style: none;
+    z-index: 200;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s;
+  }
+  
+  
+  .change .nav-list {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .nav-item {
+    margin: 25px;
+  }
+  
+  .nav-link {
+    font-family: "Cream Peach";
+    font-weight: 200;
+    font-size: normal;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    transition: letter-spacing 0.2s;
+  }
+  
+  .nav-link:hover {
+    letter-spacing: 0.8rem;
+  }
+ .navigation{
+   height: 10vh;
+   background:rgb(65, 11, 11);
+ }
+ .navigation .image img
+ {
+  width: 63px;
+ }
+.navigation .image{
+  position: absolute;
+  left:50%;
+transform: translate(-50%);
+top: 2px;
+}
