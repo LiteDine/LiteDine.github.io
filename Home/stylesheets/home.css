@@ -1,0 +1,101 @@
+p{
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: justify;
+}
+
+h1{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body{
+    background-image: url("../assets/home_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.buttons{
+    width: 100%;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 1rem 3rem;
+    font-size: 1.6rem;
+    font-style: normal;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    position: bottom;
+    cursor: pointer;
+}
+
+#page{
+    display: grid;
+    display: center;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    grid-auto-columns: 200;
+    grid-auto-rows: 400px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#product{
+    background-color: rgba(255, 185, 71, .9);
+    backdrop-filter: blur(4px);
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#price{
+    background-color: rgba(255, 185, 71, .9);
+    backdrop-filter: blur(4px);
+    
+    height: auto;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#team{
+    background-color: rgba(255, 185, 71, .9);
+    backdrop-filter: blur(4px);
+
+    height: auto;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#contact{
+    background-color: rgba(255, 185, 71, .9);
+    backdrop-filter: blur(4px);
+
+    height: auto;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
